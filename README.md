@@ -1,2 +1,5 @@
-# CURC-Robocon2025-Volleyball_FJUT
-Robocon2025排球挑战赛 福建理工大学R1机器人 机械臂电控算法开源
+# CURC-Robocon2025-Volleyball_MTI
+  Robocon2025排球挑战赛 福建理工大学MTI战队R1机器人 机械臂电控算法开源
+
+# 前言
+  我们在研究了排球赛规则后采用了Delta三轴机械臂的方案，故写下此解算程序来计算机械臂动平台在不同的三维坐标下对应的各个并联轴的主臂角度
