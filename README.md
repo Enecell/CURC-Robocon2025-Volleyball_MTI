@@ -3,7 +3,8 @@
 
 # 前言
   我们在研究了排球赛规则后采用了Delta三轴机械臂的方案，故使用此解算程序来计算机械臂动平面中心在不同的三维坐标下对应的各个并联轴的主臂角度。
-  本代码参考b站up主https://space.bilibili.com/389803222?spm_id_from=333.788.upinfo.head.click 编写，无明确许可证。请勿用于商业用途。
+  本代码在[此处](https://github.com/Enecell/CURC-Robocon2025-Volleyball_FJUT)开源,在闲鱼购买请联系原作者LL3323126216@163.com+
+  另外，本代码参考b站up主[革命的草鞋](https://space.bilibili.com/389803222?spm_id_from=333.788.upinfo.head.click)编写，无明确许可证。请勿用于商业用途。
 
 # 功能综述
   文件中work.py用于初步计算机械臂动平面大致需要的工作空间，solution.c用于计算动平面中心在不同坐标下的各个并联臂主臂的角度。
