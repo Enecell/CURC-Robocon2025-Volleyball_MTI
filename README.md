@@ -23,3 +23,36 @@ L = 180#主动臂长度
 La = 200 #从动臂长度
 
   ```
+![参考图片](2D8964DFC7AF23494ABF0DBC31225860.jpg)
+
+根据图片上的指引，输入对应的数据
+
+然后，找到此处，在两种作图方案里选择一种运行
+  ```
+work.py
+
+#建议单次运行只启动其中一种作图程序，将另一端程序注释掉
+
+#三位工作空间图
+'''ax = fig.add_subplot(projection='3d')
+ax.set_top_view()
+for item in theta_1_:
+    x, y, z = Delta_works(item, theta23, theta32)
+    ax.plot_surface(x, y, z, rstride=1, cstride=1, cmap='rainbow')
+    ax.set_xlabel('x')
+    ax.set_ylabel('y')
+    ax.set_zlabel('z')
+plt.show()'''
+
+#二维工作空间图
+ax = fig.add_subplot()
+for item in theta_1_:
+    x, y, z = Delta_works(item, theta23, theta32)
+    ax.plot(y, z, )
+    ax.set_xlabel('y')
+    ax.set_ylabel('z')
+    ax.grid(True)
+plt.show()
+  ```
+
+等待生成工作空间图片
